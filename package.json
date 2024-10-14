@@ -1,0 +1,25 @@
+{
+  "name": "web2version_1",
+  "version": "1.0.0",
+  "description": "Nodejs Express Mysql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Mysql"
+  ],
+  "author": "anahi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
